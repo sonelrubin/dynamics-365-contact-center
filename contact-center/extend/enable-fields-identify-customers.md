@@ -4,7 +4,7 @@ description: How to enable custom fields for account and contact for identifying
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.topic: how-to
+ms.topic: reference
 ms.collection:
 ms.date: 07/19/2024
 ms.custom: bap-template 
