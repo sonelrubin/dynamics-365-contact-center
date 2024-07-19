@@ -14,20 +14,20 @@ ms.custom: bap-template
 
 You can set a field in Dataverse for Contact and Account tables other than the default fields and identify the customer who contacts over the voice channel.
 
-For example, if you'd like to use the Dataverse fields listed in the table for idenfifying a voice caller, perform the steps that follow.
+For example, if you'd like to use the Dataverse fields listed in the table for identifying a voice caller, perform the steps that follow.
 
 | Table | Dataverse field | UI label|
 |-----|-----|-----|
-|Contact| Telephone1| Business Phone|
-|Contact|Telephone2|Home Phone|
-|Contact|Telephone3| Telephone 3|
-|Contact|Mobilephone| Mobile Phone|
-|Account|Telephone1|Main Phone|
-|Account|Telephone2|Other Phone|
+|Contact| `Telephone1`| Business Phone|
+|Contact|`Telephone2`|Home Phone|
+|Contact|`Telephone3`| Telephone 3|
+|Contact|`Mobilephone`| Mobile Phone|
+|Account|`Telephone1`|Main Phone|
+|Account|`Telephone2`|Other Phone|
 
 In the Dynamics 365 instance, check the record identification rules for the voice workstream as follows:
 
-1. Run the following OData API to look up `msdyn_recordidentificationrule`.
+1. To look up `msdyn_recordidentificationrule`, run the following OData API.
 
    https://`<_org_uri_>`/api/data/v9.0/msdyn_liveworkstreams(`<_workstream_id_>`)
 
