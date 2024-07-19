@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection:
-ms.date: 07/08/2024
+ms.date: 07/19/2024
 ms.custom: bap-template 
 ---
 
@@ -109,6 +109,6 @@ In the Dynamics 365 instance, check the record identification rules for the voic
 </RecordIdentificationRule>undefined</RecordIdentificationRuleSet> 
 “}), headers: { 'Content-type': 'application/json; charset=UTF-8' } }) .then() 
 ```
-### Related content
+### Related information
 
-[Identify your customers automatically](/dynamics365/customer-service/administer/record-identification-rule)
+[Identify your customers automatically](/dynamics365/customer-service/administer/record-identification-rule?context=/dynamics365/contact-center/context/administer-context)  
